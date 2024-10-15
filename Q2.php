@@ -12,13 +12,11 @@
             <input type="number" id="num2" name="num2" required><br>
             <input type="submit" value="Add">
         </form>
-
         <?php
-        // Check if result is passed back from the second page
-        if (isset($_GET['result'])) {
-            $result = $_GET['result'];
-            echo "<h3>Result: $result</h3>";
-        }
+            if (isset($_GET['result'])) {
+                $result = $_GET['result'];
+                echo "<h3>Result: $result</h3>";
+            }
         ?>
     </body>
 </html>
