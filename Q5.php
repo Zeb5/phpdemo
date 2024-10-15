@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Q5 - Compound Interest Calculator</title>
+        <title>Q5</title>
     </head>
     <body>
         <h1>Compound Interest Calculator</h1>
