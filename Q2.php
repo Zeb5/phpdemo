@@ -12,6 +12,7 @@
             <input type="number" id="num2" name="num2" required><br>
             <input type="submit" value="Add">
         </form>
+        
         <?php
             if (isset($_GET['result'])) {
                 $result = $_GET['result'];
